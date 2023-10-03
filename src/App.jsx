@@ -58,7 +58,7 @@ function App() {
       <div className="container">
         <form onSubmit={getUser}>
           <label>GitHub username:</label>
-          <input name="username" type="text" />
+          <input name="username" type="text" placeholder="Enter user..." />
           <button type="submit">GO!</button>
         </form>
         <br />
